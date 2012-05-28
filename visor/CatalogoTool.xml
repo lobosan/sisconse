@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<configuracion>
+	<url_catalogo>http://186.66.127.99:8081/senagua/servicios/cat_grupo.php</url_catalogo>
+	<url_servidor_mapas>http://186.66.127.99:8090/geoserver/senagua/wms</url_servidor_mapas>
+</configuracion>

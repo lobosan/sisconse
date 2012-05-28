@@ -1,0 +1,34 @@
+@media print {
+    #c-agua-envasada {
+        top: 5px !important;
+    }
+
+    #d-termales {
+        top: -152px !important;
+    }
+
+    #e-industria,
+    #f-riego,
+    #g-fuerza-mecanica {
+        top: -150px !important;
+    }
+
+    #h-abrevadero,
+    #i-hidroelectricas {
+        top: -280px !important;
+    }
+
+    #RepresentanteJunta {
+        top: -120px !important;
+    }
+
+    #ValidacionDatos {
+        top: -245px !important;
+    }
+
+    #FichaSenagua-body, #FichaSenagua {
+        height: 2600px !important;
+    }
+
+}
+

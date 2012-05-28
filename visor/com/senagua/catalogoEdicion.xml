@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" ?>
+<configuracion>
+	<urlLogin>http://186.66.127.99:8085/sisconse/visor/servicios/adm_login.php</urlLogin>
+	<urlCatalogo>http://186.66.127.99:8085/sisconse/visor/servicios/cat_grupo.php</urlCatalogo>
+
+	<textoTitulo>
+		Catálogo de objetos: Administración
+	</textoTitulo>
+	<textoExplicacion>
+		El catálogo de objetos consiste en una colección de objetos geográficos categorizados. Su objetivo es la estandarización de los nombres de los objetos para los usuarios de la geoinformación.
+	</textoExplicacion>
+	<textoError>
+		Sin datos.
+	</textoError>
+</configuracion>

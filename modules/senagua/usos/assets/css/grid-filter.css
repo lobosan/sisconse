@@ -1,0 +1,15 @@
+.add-icon { background-image: url(../images/add16x16.png); }
+.delete-icon { background-image: url(../images/delete16x16.png); }
+.details-icon { background-image: url(../images/view_details.png); }
+.filters { background-image: url(../images/filters.png); }
+.save-icon { background-image: url(../images/save16x16.png); }
+.import-icon { background-image: url(../images/export_excel.png); }
+.csv-icon { background-image: url(../images/csv.gif); }
+.export-icon { background-image: url(../images/table_excel.png); }
+.x-action-col-0, .x-action-col-1, .x-action-col-2 { cursor: pointer; margin: 0 2px; }
+.x-action-col-0:hover { background-image: url(../images/view_details_on.png); }
+.x-action-col-1:hover { background-image: url(../images/edit16x16_on.png); }
+.x-action-col-2:hover { background-image: url(../images/delete16x16_on.png); }
+.tab-add { background-image: url(../images/add_tab.png); }
+.tab-view { background-image: url(../images/view_details_off_tab.png); }
+.tab-edit { background-image: url(../images/edit16x16_off_tab.png); }

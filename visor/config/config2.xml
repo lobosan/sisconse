@@ -1,0 +1,106 @@
+﻿<root>
+	<config>
+		<setup>
+			<logo>assets/images/header/logo.png</logo>
+			<title>NewVi</title>
+			<subtitle>Visor Geográfico</subtitle>
+			<searchzoom>10</searchzoom>
+
+			<legend>assets/images/legend/legend.png</legend>
+			<maxzoomlevel>18</maxzoomlevel>
+			<tools>
+				<basic>
+					<fullextent>true</fullextent>
+					<layers>true</layers>
+					<overview>true</overview>
+					<draw>true</draw>
+					<print>true</print>
+					<help>true</help>
+					<wms_capabilities>true</wms_capabilities>
+					<wfs_capabilities>true</wfs_capabilities>
+					<addresssearch>false</addresssearch>
+					<identify>true</identify>
+				</basic>
+				<search visible="false">
+					<address>false</address>
+				</search>
+				<advanced visible="false">
+				</advanced>
+			</tools>
+		</setup>			
+
+<layers>
+
+                            <layer><type>wms</type> <name>BASE HIDROGRAFICA:red hidrografica, lagos y lagunas:Regiones naturales</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CB020_REGION</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:cuencas hidrográficas:Cuenca hidrográfica</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CA010_CUENCA_HIDROGRAFICA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:cuencas hidrográficas:Subcuenca hidrográfica</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CA020_SUBCUENCA_HIDROGRAFICA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:límite político administrativo:Cantones</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CB040_CANTON</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:límite político administrativo:Parroquias</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CB050_PARROQUIA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:límite político administrativo:Provincias</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CB030_PROVINCIA</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:límite político administrativo:Zonas de Planificación</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CB021_ZONAS_PLANIFICACION</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:zonas restringidas - ciam - snap:Patrimonio forestal</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CC010_PATRIMONIO_FORESTAL</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:zonas restringidas - ciam - snap:Sistema nacional de áreas protegidas</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CC030_SNAP</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>DEMARCACIÓN:zonas restringidas - ciam - snap:Zona intangible</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>CC040_ZONA_INTANGIBLE</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Tipo de suelo</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DG010_TIPO_SUELOS</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Falla geológica</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DD020_FALLA_GEOLOGICA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Formación geológica</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DD010_FORMACION_GEOLOGICA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Geomorfología</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DB300_GEOMORFOLOGIA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Volcán</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DB180_VOLCAN</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>FISIOGRAFÍA:Curvas de nivel</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>DA010_CURVAS_NIVEL</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>GEOGRAFÍA SOCIOECONÓMICA:Sitios</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>KD040_NOMBRE_SITIO</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Área inundable</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH090_AREA_INUNDACION</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Embalse</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH130_EMBALSE</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Lagos y lagunas</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH080_LAGO_LAGUNA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Lecho de río</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH141_LECHO_RIO</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Ribera de río</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH142_RIBERA_RIO</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Ríos dobles</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH140_RIO</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Ríos torrente</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BH140_RIO_L</layers> <visible>true</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Isla</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BA030_ISLA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>HIDROGRAFÍA / OCEANOGRAFÍA:Línea de costa</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>BA011_LINEA_COSTA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+                            <layer><type>wms</type> <name>INFRAESTRUCTURA DE TRANSPORTE:Vía</name> <url>http://190.152.15.80/mapserver/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url> <layers>GA030_VIA</layers> <visible>false</visible> <alpha>1</alpha> <version>1.1.1</version><format>image/png</format></layer>
+
+			<layer>
+				<type>wfs</type>
+				<name>Provincias</name>
+				<url>http://190.152.15.80/mapserver/cgi-bin/mapserv?map=/var/www/html/vas/mapserver/htdocs/vas_wfs.map&service=wfs&</url>
+				<typename>CB030_PROVINCIA</typename>
+
+				<projection>EPSG:900913</projection>
+				<version>1.1.0</version>
+				<minZoomLevel></minZoomLevel>	
+				<maxZoomLevel></maxZoomLevel>	
+				<style>polygon</style>
+				<styleOutline>0xFFFFFF</styleOutline>		
+				<styleBody>0x7E7B86</styleBody>
+				<visible>false</visible>
+
+			</layer>
+	</layers>
+          </config>
+</root>

@@ -1,0 +1,10 @@
+.help-icon { background-image: url(images/help16x16.png) !important; }
+.x-btn-large .help-icon { background-image: url(images/help32x32.png) !important; }
+.help-shortcut { background-image: url(images/help48x48.png) !important; }
+.xls-icon{background:transparent url(images/page_excel.png) 0 0 no-repeat !important;}
+.ppt-icon{background:transparent url(images/page_white_powerpoint.png) 0 0 no-repeat !important;}
+.doc-icon{background:transparent url(images/page_word.png) 0 0 no-repeat !important;}
+.jpg-icon{background:transparent url(images/picture.png) 0 0 no-repeat !important;}
+.html-icon{background:transparent url(images/page_world.png) 0 0 no-repeat !important;}
+.pdf-icon{background:transparent url(images/page_white_acrobat.png) 0 0 no-repeat !important;}
+.unknow-icon{background:transparent url(images/page_white.png) 0 0 no-repeat !important;}

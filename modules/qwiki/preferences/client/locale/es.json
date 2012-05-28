@@ -1,0 +1,100 @@
+{
+   "launcher": {
+   	"text": "Preferencias"
+      , "tooltip": "<b>Preferencias</b><br />Permite modificar su escritorio"
+   }
+   , "button": {
+   	"back": {
+   		"text": "Regresar"
+   	}
+   	, "backgroundColor": {
+   		"text": "Color de fondo"
+   	}
+   	, "close": {
+         "text": "Cerrar"
+   	}
+   	, "fontColor": {
+         "text": "Color del texto"
+      }
+
+   	, "next": {
+   		"text": "Siguiente"
+   	}
+   	, "save": {
+   		"text": "Guardar"
+   	}
+   }
+   , "connection": {
+   	"lost": {
+	      "msg": "Conexión perdida con el servidor."
+	      , "title": "Error"
+	   }
+   }
+   , "error": {
+   	"msg": "Error encontrado en el servidor."
+   	, "title": "Error"
+   }
+   , "data": {
+   	"nav": [
+         {
+         	"cls": "icon-pref-shortcut"
+         	, "id": "viewShortcuts"
+         	, "text": "Accesos directos"
+         	, "description": "Seleccione las aplicaciones que tendrán acceso directo en su escritorio"
+         }
+         , {
+            "cls": "icon-pref-autorun"
+            , "id": "viewAutoRun"
+            , "text": "Ejecución automática"
+            , "description": "Seleccione las aplicaciones que se iniciarán automáticamente al ingresar al sistema"
+         }
+         , {
+            "cls": "icon-pref-quickstart"
+            , "id": "viewQuickstart"
+            , "text": "Inicio rápido"
+            , "description": "Seleccione las aplicaciones que aparecerán en el panel de inicio"
+         }
+         , {
+            "cls": "icon-pref-appearance"
+            , "id": "viewAppearance"
+            , "text": "Color y apariencia de las ventanas"
+            , "description": "Ajuste el color y estilo de sus ventanas"
+         }
+         , {
+            "cls": "icon-pref-wallpaper"
+            , "id": "viewWallpapers"
+            , "text": "Fondo de escritorio"
+            , "description": "Escoja uno de los fondos de pantalla disponibles para su escritorio"
+         }
+   	]
+   }
+   , "html": {
+		"shortcuts": "Seleccione las aplicaciones que estarán disponibles en el escritorio como accesos directos y guarde sus cambios."
+   	, "autorun": "Seleccione las aplicaciones que se abrirán automáticamente al iniciar sesión y guarde sus cambios.<br />"
+      , "quickstart": "Seleccione las aplicaciones que estarán disponibles en el panel de inicio rápido y guarde sus cambios."
+   }
+   , "label": {
+      "backgroundColor": "Color de fondo:"
+      , "fontColor": "Color de texto:"
+      , "transparency": "Transparencia de la barra de tareas:"
+      , "wallpaperPosition": "Posición de la imagen:"
+   }
+   , "notification": {
+   	"saved": {
+	      "msg": "Cambios guardados."
+	      , "title": "Terminado"
+	   }
+	   , "saving": {
+	   	"msg": "Grabando ..."
+	   	, "title": "Por favor espere"
+	   }
+   }
+   , "title": {
+      "appearance": "Color y apariencia de las ventanas"
+      , "autorun": "Ejecución automática"
+      , "background": "Fondo de escritorio"
+      , "quickstart": "Inicio rápido"
+      , "shortcuts": "Accesos directos"
+      , "window": "Preferencias"
+   }
+}

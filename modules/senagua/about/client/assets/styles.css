@@ -1,0 +1,5 @@
+.about-icon { background-image: url(images/about16x16.png) !important; }
+.x-btn-large .about-icon { background-image: url(images/about32x32.png) !important; }
+.about-shortcut { background-image: url(images/about48x48.png) !important; }
+p { padding-bottom: 15px; }
+#usaid-fonag { width: 425px; margin: 10px auto 20px; }

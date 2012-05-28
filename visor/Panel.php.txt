@@ -1,0 +1,40 @@
+<?php
+
+	class Panel
+	{
+	function Panel()
+	{
+		$this->methodTable = array(
+			"loginAdmin" => array(
+				"description" => "Chequee si el Administrador lo Permite",
+				"access" => "remote",
+				"arguments" => array(data)
+			)
+		);
+		$this->servidor="servidor_mysql";
+		$this->db_usuario="usuario";
+		$this->db_pass="contraseña";
+		$this->db="base_de_datos";
+	}
+	
+	function loginAdmin($user,$pass)
+	{
+		mysql_connect($this->servidor,$this->db_usuario,$this->db_pass);
+		mysql_select_db($this->db);
+		$this->res=mysql_query("SELECT username , password , reg_date, permision FROM tbl_users WHERE username LIKE '$user' AND active=1" );
+	
+		while ($row=mysql_fetch_array($this->res)) 
+		{
+			$per = $row['permision'];
+			$passw = $row['password'];
+			if(md5($pass)!=$passw) {
+			return 0;
+			} else {
+				return $per;
+			};
+		}
+		return -1;
+		}
+}
+
+?>

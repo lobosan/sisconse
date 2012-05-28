@@ -1,0 +1,4 @@
+.auditoria-icon { background-image: url(images/auditoria.png) !important; }
+.x-btn-large .auditoria-icon { background-image: url(images/auditoria32.png) !important; }
+.auditoria-shortcut { background-image: url(images/auditoria48.png) !important; }
+#auditoria-nav-panel li { margin-bottom:5px; }

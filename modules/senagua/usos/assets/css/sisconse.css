@@ -1,0 +1,30 @@
+.x-panel-body-default-framed { background:  none repeat scroll 0 0 #FFF !important; }
+.x-fieldset { background-color: #F4F8FF !important; }
+#Actualizaciones > legend:first-child,
+#Usos > legend:first-child,
+#FuenteHidrica > legend:first-child,
+#AguaPotable > legend:first-child,
+#SistemasSaneamiento > legend:first-child,
+#ResiduosSolidos > legend:first-child,
+#Anexos > legend:first-child,
+#RepresentanteJunta > legend:first-child,
+#ValidacionDatos > legend:first-child{ font-weight: bold; font-size: 14px; }
+.x-panel-body-default-framed { color: #222 !important; }
+
+#galeria { position: absolute; top: 40px; left: 10px; z-index: 10; }
+.oculta { display: none; }
+ul.gallery li { display: block; float: left; margin: 0 10px 0 0; }
+ul.gallery a { padding: 2px; display: block; border: 2px #999 solid; -moz-border-radius: 5px; -webkit-border-radius: 5px; line-height: 0; }
+ul.gallery a:hover { border: 2px #CCC solid; }
+.save-icon { background-image: url(../images/save16x16.png) !important; }
+.print-icon { background-image: url(../images/pdf.png); }
+
+#a-consumo-humano > legend:first-child,
+#b-piscicolas > legend:first-child,
+#c-agua-envasada > legend:first-child,
+#d-termales > legend:first-child,
+#e-industria > legend:first-child,
+#f-riego > legend:first-child,
+#g-fuerza-mecanica > legend:first-child,
+#h-abrevadero > legend:first-child,
+#i-hidroelectricas > legend:first-child{ font-weight: bold; font-size: 12px; font-family: 'Trebuchet MS'; }

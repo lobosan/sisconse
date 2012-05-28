@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<configuracion>
+	<urlConsultasConcesiones>http://186.66.127.99:8085/sisconse/visor/servicios/general.php</urlConsultasConcesiones>
+	<coberturas>
+		<cobertura>
+			<url>http://186.66.127.99:8089/geoserver/wms</url>
+			<nombre>fonag:Escorrentia_Actual_Abril_Demanda</nombre>
+		</cobertura>
+		<cobertura>
+			<url>http://186.66.127.99:8089/geoserver/wms</url>
+			<nombre>fonag:Escorrentia_Actual_Abril_Demanda_Incrementada</nombre>
+		</cobertura>
+	</coberturas>
+</configuracion>

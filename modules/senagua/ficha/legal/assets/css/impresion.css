@@ -1,0 +1,90 @@
+@media print {
+    @page {
+        margin: 25px 15px 10px;
+    }
+
+    body {
+        zoom: 90%; /*porcentaje para mostrar horizontal la ficha*/
+    }
+
+    #Usos-body label,
+    #FuenteHidrica-body label,
+    #FuHiTipoFuenteOrigen label {
+        font-size: 95%;
+    }
+
+    #toolbar {
+        visibility: hidden;
+    }
+
+    #FichaSenagua-body {
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+        top: 1px !important;
+    }
+
+    #FichaSenagua-body, #FichaSenagua {
+        height: 3500px !important;
+    }
+
+    #c-agua-envasada, #FuenteHidrica, #SistemasSaneamiento {
+        page-break-before: always;
+    }
+
+    #Usos, #Usos-body {
+        height: 1350px !important;
+    }
+
+    /*Sobreescribir class*/
+    .x-docked,
+    #Usos,
+    #c-agua-envasada,
+    #d-termales,
+    #e-industria,
+    #f-riego,
+    #g-fuerza-mecanica,
+    #h-abrevadero,
+    #i-hidroelectricas,
+    #FuenteHidrica,
+    #AguaPotable,
+    #SistemasSaneamiento,
+    #ResiduosSolidos,
+    #Anexos,
+    #textareafield-1201,
+    #RepresentanteJunta,
+    #ValidacionDatos {
+        position: relative;
+    }
+
+    #c-agua-envasada,
+    #FuenteHidrica,
+    #AguaPotable,
+    #SistemasSaneamiento,
+    #ResiduosSolidos,
+    #Anexos,
+    #RepresentanteJunta,
+    #FichaSenagua {
+        top: 0px !important;
+    }
+
+    #ValidacionDatos,
+    #textareafield-1201 {
+        top: -130px !important;
+    }
+
+    #e-industria,
+    #f-riego,
+    #g-fuerza-mecanica,
+    #d-termales {
+        top: -170px !important;
+    }
+
+    #h-abrevadero,
+    #i-hidroelectricas {
+        top: -300px !important;
+    }
+
+    .x-panel-body-default {
+        border: none !important;
+    }
+}

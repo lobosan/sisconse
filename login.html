@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SENAGUA - Inicio</title>
+
+		<link rel="stylesheet" type="text/css" href="resources/css/login.css" />
+
+		<script type="text/javascript" src="client/misc/ext-core.js"></script>
+		<script type="text/javascript" src="client/misc/cookies.js"></script>
+		<script type="text/javascript" src="client/misc/login.js"></script>
+	</head>
+
+	<body>
+		<img id="login-background" src="resources/images/default/login/background.jpg" alt="logo-senagua" />
+		<div id="login-panel">
+			<div class="login-div">
+				<div class="login-container">
+					<div id="login-logo"></div>
+					<div class="login-user">Cédula:</div>
+					<div class="login-input login-user-div">
+						<input type="text" id="field1" name="field1" tabindex="1" spellcheck="false" maxlength="10" />
+					</div>
+					<div class="login-password">Contraseña:</div>
+					<div class="login-input login-password-div">
+						<input type="password" id="field2" name="field2" tabindex="2" spellcheck="false" />
+					</div>
+					<!--<div class="login-forgot-password">
+						<a href="forgot-password.html">Olvidó su contraseña?</a>
+					</div>-->
+					<div id="submitBtn" class="login-submit" tabindex="3"></div>
+					<div class="login-footer">
+						<div class="login-division"></div>
+						<div class="login-account-question">No tiene una cuenta?</div>
+						<div class="login-signup">
+							<a href="signup.php">Regístrese aquí</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<label id="field3-label" accesskey="g" for="field3" style="display: none;">
+				<span class="key">G</span>roup
+			</label>
+			<select name="field3" id="field3" style="display: none;"></select>
+		</div>
+	</body>
+</html>

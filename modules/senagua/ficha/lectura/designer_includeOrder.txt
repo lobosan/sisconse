@@ -1,0 +1,4 @@
+<script type="text/javascript" src="app/view/ui/FichaSenagua.js"></script>
+<script type="text/javascript" src="app/view/FichaSenagua.js"></script>
+<script type="text/javascript" src="app/view/ui/BtnImprimir.js"></script>
+<script type="text/javascript" src="app/view/BtnImprimir.js"></script>

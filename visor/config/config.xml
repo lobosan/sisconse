@@ -1,0 +1,105 @@
+﻿<root>
+	<config>
+		<setup>
+			<logo>assets/images/header/logo.png</logo>
+			<title>Secretaría Nacional del Agua</title>
+			<subtitle>Visor Geográfico</subtitle>
+			<searchzoom>10</searchzoom>
+
+			<legend>assets/images/legend/legend.png</legend>
+			<maxzoomlevel>18</maxzoomlevel>
+			<tools>
+				<basic>
+					<fullextent>true</fullextent>
+					<layers>true</layers>
+					<overview>true</overview>
+					<draw>true</draw>
+					<print>true</print>
+					<help>true</help>
+					<addresssearch>false</addresssearch>
+					<wms_capabilities>true</wms_capabilities>
+					<catalogo>true</catalogo>
+					<concesiones>true</concesiones>
+					<identify>true</identify>
+					<leyendas>false</leyendas>
+				</basic>
+				<search visible="false">
+					<address>false</address>
+				</search>
+				<advanced visible="false">
+				</advanced>
+			</tools>
+		</setup>			
+		<capabilities>
+			<server>
+				<type>wms</type>
+				<name>Servidor SENAGUA</name>
+				<url>http://186.66.127.99:8090/geoserver/senagua/wms</url>
+				<group_layers>SENAGUA</group_layers>
+				<layers>senagua:centro_zonal_gestion_agua,senagua:demarcaciones_hidrograficas,senagua:autoridades_demarcacion,senagua:PROVINCIA</layers>
+				<visible_layers>senagua:centro_zonal_gestion_agua,senagua:demarcaciones_hidrograficas,senagua:autoridades_demarcacion,senagua:PROVINCIA</visible_layers>
+			</server>
+			
+		</capabilities>
+
+<layers>
+
+<!-- WMS -->
+			<!--layer>
+				<type>wmsc</type>
+				<name>Regiones Hidrografia</name>
+				<url>http://186.66.127.99:1979/geoserver/wms</url>
+				<layers>senagua:demarcaciones_hidrograficas_</layers>
+				<format>image/png</format>
+				<transparent>true</transparent>
+				<alpha>0.3</alpha>
+				<version>1.1.1</version>
+				<visible>false</visible>
+			</layer>
+			<layer>
+				<type>wms</type>
+				<name>Conflictos Registrados</name>
+				<url>http://186.66.127.99:1979/geoserver/wms</url>
+				<layers>senagua:CONFLICTOS_REGISTRADOS_</layers>
+				<format>image/png</format>
+				<transparent>true</transparent>
+				<alpha>1</alpha>
+				<version>1.1.1</version>
+				<visible>false</visible>
+			</layer>
+			<layer>
+				<type>wms</type>
+				<name>DPA</name>
+				<url>http://186.66.127.99/server1/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url>
+				<layers>CB030_PROVINCIA,CB040_CANTON,CB050_PARROQUIA</layers>
+				<format>image/png</format>
+				<transparent>true</transparent>
+				<alpha>1</alpha>
+				<version>1.1.1</version>
+				<visible>false</visible>
+			</layer>
+			<layer>
+				<type>wms</type>
+				<name>Cuencas hidrografica</name>
+				<url>http://186.66.127.99/server1/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url>
+				<layers>CA010_CUENCA_HIDROGRAFICA,CA020_SUBCUENCA_HIDROGRAFICA</layers>
+				<format>image/png</format>
+				<transparent>true</transparent>
+				<alpha>1</alpha>
+				<version>1.1.1</version>
+				<visible>false</visible>
+			</layer>
+			<layer>
+				<type>wms</type>
+				<name>Rios</name>
+				<url>http://186.66.127.99/server1/cgi-bin/mapserv?service=wms&map=/var/www/html/vas/mapserver/htdocs/SIGVAS.map&</url>
+				<layers>BH140_RIO,BH140_RIO_L</layers>
+				<format>image/png</format>
+				<transparent>true</transparent>
+				<alpha>1</alpha>
+				<version>1.1.1</version>
+				<visible>false</visible>
+			</layer-->
+	</layers>
+          </config>
+</root>

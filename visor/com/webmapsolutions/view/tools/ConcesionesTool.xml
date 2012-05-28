@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" ?>
+<configuracion>
+	<url_concesiones>http://186.66.127.99:8085/sisconse/visor/servicios/general.php</url_concesiones>
+</configuracion>
